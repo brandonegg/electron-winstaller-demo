@@ -18,4 +18,4 @@ async function build(outPath) {
       }
 }
 
-build("C:\\Users\\brand\\Documents\\my-new-app");
+build("./out/my-new-app-win32-x64");
