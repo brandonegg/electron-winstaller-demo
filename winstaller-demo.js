@@ -10,7 +10,7 @@ async function build(outPath) {
           appDirectory: outPath,
           outputDirectory: './out/build/installer64',
           authors: 'My App Inc.',
-          exe: 'my-new-app.exe'
+          exe: '@demo-electron-app.exe'
         });
         console.log('It worked!');
       } catch (e) {
@@ -18,4 +18,4 @@ async function build(outPath) {
       }
 }
 
-build("./out/my-new-app-win32-x64");
+build("./out/@demo-electron-app-win32-x64");

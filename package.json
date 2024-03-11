@@ -1,6 +1,5 @@
 {
   "name": "@demo/electron-app",
-  "productName": "my-new-app",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",
